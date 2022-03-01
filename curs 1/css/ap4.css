@@ -1,0 +1,42 @@
+a[title]{
+    color: green;
+    font-size: 15px;
+
+}
+a[href="https://www.google.com/search?q=translate&oq=&aqs=chrome.0.69i59i450l4.119822j0j7&sourceid=chrome&ie=UTF-8"] {
+    color:rgb(255, 115, 0);
+    font-size: 25px;
+}
+a[href *="#EN/RO"]{
+    color:blue;
+}
+a[href *="#FR/RO"]{
+    color: aqua
+
+}
+a[href *="IT-RO"]{
+    color: red;
+}
+a[href ^="https"]{
+    text-transform: uppercase;
+
+}
+a[href $=".com"]{
+    text-decoration: none;
+    font-style: italic;
+}
+a[data-info~="extern"]{
+    color:red;
+}
+a[data-info~="intern"]{
+    border: 1px solid black;
+}
+p:empty{ display: none;}
+
+ul#meniu{
+    list-style: none;
+}
+ul#meniu li {
+    display: inline-block;
+    padding: 5px 15px;
+}
